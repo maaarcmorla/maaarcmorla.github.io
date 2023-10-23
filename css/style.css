@@ -1,0 +1,88 @@
+body {
+  margin: 0px;
+  font-family: "SoDoSans SemiBold", sans-serif;
+}
+
+/* -- navbar inicio -- */
+
+.navbar {
+  padding: 20px;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  -webkit-box-shadow: 0px 4px 5px 0px rgba(153,145,153,1);
+  -moz-box-shadow: 0px 4px 5px 0px rgba(153,145,153,1);
+  box-shadow: 0px 4px 5px 0px rgba(153,145,153,1);
+}
+
+.navbar-izq img {
+  width: 300px;
+  margin-right: 20px;
+}
+
+.navbar-izq div {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.navbar-izq div:hover {
+    color: rgb(73, 187, 255);
+}
+.navbar-der div:hover {
+    color: rgb(73, 187, 255);
+}
+
+.navbar-izq {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-izq > * {
+  padding: 10px;
+}
+
+.navbar-der div {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.navbar-der {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-der > * {
+    padding: 10px;
+}
+
+/* -- navar final -- */
+
+/* -- footer inicio -- */
+
+footer {
+  background-color: rgb(238, 238, 238);
+  color: black;
+  padding: 20px;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  -webkit-box-shadow: 0px -2px 10px -1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px -2px 10px -1px rgba(0,0,0,0.75);
+  box-shadow: 0px -2px 10px -1px rgba(0,0,0,0.75);
+}
+
+.footer-izq {
+  display: flex;
+}
+
+.footer-der {
+  display: flex;
+}
+
+.footer-der:hover {
+  color: #646363;
+}
+
+/* -- footer final -- */
