@@ -2,3 +2,8 @@
     -webkit-box-shadow: 5px 5px 15px 50px #000000; 
     box-shadow: 5px 5px 15px 50px #000000;
 }
+
+.bg-gradient {
+    background: linear-gradient(135deg, #6f42c1 0%, #4582EC 100%);
+    color: white;
+}
